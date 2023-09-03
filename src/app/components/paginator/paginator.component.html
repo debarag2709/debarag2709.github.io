@@ -1,0 +1,20 @@
+<!-- <mat-paginator [length]=length pageSize=20
+               (page)="getPaginatorData($event)" [pageSizeOptions]="[10, 20, 30]"
+               showFirstLastButtons="false">
+</mat-paginator>
+<mat-list>
+   <app-newspaper-pagi-item *ngFor="let paper of (localNewspapers | 
+                         slice: lowValue : highValue)"
+                         [newspaper]="paper"> 
+  </app-newspaper-pagi-item> -->
+<!-- <app-athlete></app-athlete> -->
+
+
+
+<div class="col-md-3" *ngFor="let productObj of athletesData | 
+     slice: lowValue : highValue">
+ </div>
+
+<mat-paginator [length]="athletesData.length" [pageSize]="pageSize" 
+   (page)= "getPaginatorData($event)">
+</mat-paginator> 

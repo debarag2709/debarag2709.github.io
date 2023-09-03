@@ -1,0 +1,31 @@
+.mat-toolbar {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    position: relative;
+    /* height: 100%; */
+    padding: 0 16px;
+    transition: background-color 0.3s ease;
+  } 
+  
+  .mat-toolbar a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .mat-toolbar a {
+    text-decoration: none; }
+    /* .mat-toolbar{
+      background-color: cornflowerblue;
+      color: white;
+      padding: 50px;
+      margin: 20px;
+    }
+    .mat-button{
+       color: white;
+    }
+    .spacer{
+      flex: 1 1 auto;
+    } */
